@@ -1,0 +1,193 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body{
+width: 100vw;
+height:100vh;
+
+
+}
+body nav{
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+padding-top:10px ;
+position: absolute;
+top: 3%;
+
+width: 100vw;
+
+}
+
+
+body nav ul{
+
+position: relative;
+left: 6%;
+}
+
+body nav ul li{
+color: red;
+list-style-type: none;
+display: inline-block;
+padding: 10px 15px;
+
+font-family: 'Montserrat', sans-serif;
+font-weight: 900;
+}
+
+
+body nav h3{
+padding-left: 130px;
+font-family: 'Montserrat', sans-serif;
+font-size: 50px;
+color: rgba(29, 29, 29, 0.775);
+font-weight:900;
+}
+.span{
+    color: rgb(255, 0, 0);
+    
+font-weight: 700;
+font-size: 25px;
+position: relative;
+left:-100px;
+}
+body nav ul li a {
+text-decoration: none;
+color:rgba(29, 29, 29, 0.775); ;
+border: 2px solid rgb(251, 0, 0);
+border-radius: 40px;
+padding: 5px;
+box-shadow: 5px 5px 8px rgb(40, 39, 39);
+}
+body nav ul li a:hover{
+background-color: rgb(254, 63, 63) ;
+transform: scale(1.3);
+cursor:pointer;
+transform: scale(1.1);
+cursor: pointer;
+
+}
+.btn1{
+border: 2px solid rgb(163, 159, 159);
+padding: 15px 50px;
+background-color: rgb(163, 159, 159);
+background-color:rgb(255, 201, 5);
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+border-radius: 60px;
+position: relative;
+right: 2px;
+box-shadow: 5px 5px 8px rgb(40, 39, 39);
+}
+.btn1:hover{
+color: red;
+
+transform: scale(1.1)
+
+}
+.btn2{
+    border: 2px rgb(163, 159, 159);
+    padding: 17px 50px;
+    background-color: rgb(163, 159, 159);
+   background-color:rgb(255, 201, 5);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 60px;
+    position: relative;
+    right: 6%;
+    box-shadow: 5px 5px 8px rgb(39, 39, 39);
+}
+.btn2 a{
+    text-decoration: none;
+color: black;
+
+}
+.btn1 a{
+text-decoration: none;
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+font-weight: 500;
+border-radius: 60px;
+color:black;
+
+
+}
+.btn2:hover{
+    color: red;
+    
+
+    transform: scale(1.1)
+    
+    }
+
+    .mainimg{
+position: absolute;
+top: -2%;
+left: 55%;
+z-index: -1;
+
+
+
+    }
+    .maindiv2{
+
+position: absolute;
+top: 40%;
+left: 14%;
+ height:300px;
+ width: 600px;
+ border-radius: 80px;
+ padding: 20px;
+ font-family: 'Poppins', sans-serif;
+    }
+    .codeclass{
+font-size: 30px;
+font-weight: 200;
+
+    }
+    .code{
+
+font-weight: 500;
+        font-size: 70px;
+        color: red;
+    }
+    .lekha{
+font-size: 30px;
+font-weight: 100;
+color:crimson ;
+
+    }
+    .button{
+        padding: 15px 80px;
+border-radius: 60px;
+position: relative;
+top: 21px;
+left: 40%;
+background-color:yellow;
+font-size: 15px;
+font-weight: 500;
+box-shadow: 10px 10px 25px;
+
+    }
+    .button:hover{
+background-color: red;
+color: white;
+transform: scale(1.1);
+cursor: pointer;
+    }
+    #tir{
+position: relative;
+top: 7px;
+
+
+    }
+    .button a{
+        text-decoration: none;
+color:black;
+    }
+ 
